@@ -27,7 +27,7 @@ public class Main {
 		int numUniqueItems = 1000000;
 		String sep = "_";
 		String distribution = "zipf";
-		String directory  = "/Users/anis/Datasets/zipf/1M/";
+		String directory  = "/Datasets/zipf/1M/";
 		
 		for (double skew = 0.1;skew<=2.0;skew+=0.1) {
 			skew = roundTwoDecimals(skew);
